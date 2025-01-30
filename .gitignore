@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Checkpoints and data
+checkpoints/*
+!checkpoints/.gitkeep
+data/*
+!data/.gitkeep
+
+# Debug and local configs
+debug_*.py
+*.log
+
+# Docker
+.docker/
+
+# Model specific
+*.pt
+*.pth
+*.ckpt
+*.pkl
+
+# Keep essential files
+!requirements.txt
+!Dockerfile
+!docker-compose.yml
+!docker-compose.gpu.yml
+!config.yaml
